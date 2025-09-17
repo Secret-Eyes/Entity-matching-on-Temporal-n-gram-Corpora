@@ -1,0 +1,74 @@
+time elapsed for file ./data/raw1-00000-of-00008 in first function: 23.30433464050293
+time elapsed for file ./data/raw1-00001-of-00008 in first function: 28.34944748878479
+time elapsed for file ./data/raw1-00002-of-00008 in first function: 28.652151823043823
+time elapsed for file ./data/raw1-00003-of-00008 in first function: 29.623117208480835
+time elapsed for file ./data/raw1-00004-of-00008 in first function: 29.082691192626953
+time elapsed for file ./data/raw1-00005-of-00008 in first function: 32.70678448677063
+time elapsed for file ./data/raw1-00006-of-00008 in first function: 33.10494565963745
+time elapsed for file ./data/raw1-00007-of-00008 in first function: 36.49712777137756
+time elapsed for file ./data/raw1-00000-of-00008 in second function: 25.31583333015442
+time elapsed for file ./data/raw1-00001-of-00008 in second function: 32.23906207084656
+time elapsed for file ./data/raw1-00002-of-00008 in second function: 30.235188245773315
+time elapsed for file ./data/raw1-00003-of-00008 in second function: 31.439536809921265
+time elapsed for file ./data/raw1-00004-of-00008 in second function: 35.42695689201355
+time elapsed for file ./data/raw1-00005-of-00008 in second function: 39.93100166320801
+time elapsed for file ./data/raw1-00006-of-00008 in second function: 46.235514879226685
+time elapsed for file ./data/raw1-00007-of-00008 in second function: 42.58515191078186
+
+combining:
+['0', '811037']
+time elapsed to sort file ./data/data-cleaning1_00: 1.2610046863555908
+start using placement to fill file #0
+time elapsed writing new file ./data/data-sort1_00: 6.911234140396118
+finished sorting file #0
+time elapsed to sort and create file ./data/data-sort1_00: 6.911234140396118
+
+['0', '999999', '895017']
+time elapsed to sort file ./data/data-cleaning1_01: 204.79354667663574
+start using placement to fill file #1
+time elapsed writing new file ./data/data-sort1_01: 217.90464997291565
+finished sorting file #1
+time elapsed to sort and create file ./data/data-sort1_01: 217.90464997291565
+
+['0', '999999', '809972']
+time elapsed to sort file ./data/data-cleaning1_02: 4.573127746582031
+start using placement to fill file #2
+time elapsed writing new file ./data/data-sort1_02: 21.87314224243164
+finished sorting file #2
+time elapsed to sort and create file ./data/data-sort1_02: 21.87314224243164
+
+['0', '999999', '966135']
+time elapsed to sort file ./data/data-cleaning1_03: 247.51516842842102
+start using placement to fill file #3
+time elapsed writing new file ./data/data-sort1_03: 267.2505922317505
+finished sorting file #3
+time elapsed to sort and create file ./data/data-sort1_03: 267.25159740448
+
+['0', '999999', '897157']
+time elapsed to sort file ./data/data-cleaning1_04: 232.35823392868042
+start using placement to fill file #4
+time elapsed writing new file ./data/data-sort1_04: 252.86022424697876
+finished sorting file #4
+time elapsed to sort and create file ./data/data-sort1_04: 252.86022424697876
+
+['0', '999999', '829064']
+time elapsed to sort file ./data/data-cleaning1_05: 221.71094465255737
+start using placement to fill file #5
+time elapsed writing new file ./data/data-sort1_05: 240.31894946098328
+finished sorting file #5
+time elapsed to sort and create file ./data/data-sort1_05: 240.32046675682068
+
+['0', '999999', '709475']
+time elapsed to sort file ./data/data-cleaning1_06: 185.8073890209198
+start using placement to fill file #6
+time elapsed writing new file ./data/data-sort1_06: 210.88005375862122
+finished sorting file #6
+time elapsed to sort and create file ./data/data-sort1_06: 210.88005375862122
+
+['0', '999999', '826116']
+time elapsed to sort file ./data/data-cleaning1_07: 224.23145699501038
+start using placement to fill file #7
+time elapsed writing new file ./data/data-sort1_07: 250.38251376152039
+finished sorting file #7
+time elapsed to sort and create file ./data/data-sort1_07: 250.38251376152039
+PS D:\Users\Lukas\Documents\KIT\Bachelor\Entity-matching-on-Temporal-n-gram-Corpora> 
