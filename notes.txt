@@ -1,0 +1,5 @@
+?by filtering with suffix, we can limit the similarities between conjugations or different form of nouns
+e.g. Hunde, Hundes, Hunden
+
+Wie sinnvoll ist es wörter zu nutzen die weniger als mehr vorkommen?
+-> neumodische wörter, veraltete nutzungen würden verschwinden    -> nicht gut

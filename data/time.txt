@@ -72,3 +72,244 @@ time elapsed writing new file ./data/data-sort1_07: 250.38251376152039
 finished sorting file #7
 time elapsed to sort and create file ./data/data-sort1_07: 250.38251376152039
 PS D:\Users\Lukas\Documents\KIT\Bachelor\Entity-matching-on-Temporal-n-gram-Corpora> 
+
+
+start sorting file #0
+sorted 100000 words of file #0: current word is Adoptionsgesuchen
+sorted 200000 words of file #0: current word is Allumfassens
+sorted 300000 words of file #0: current word is Ankaufspflicht
+sorted 400000 words of file #0: current word is Arbeitstarifvertrage
+sorted 500000 words of file #0: current word is Aufhackung
+sorted 600000 words of file #0: current word is Avao
+sorted 700000 words of file #0: current word is Baugrubensicherung
+time elapsed for sorting file ./data/data-sort1_00: 156.59035444259644
+finished sorting file #0
+start sorting file #1
+sorted 100000 words of file #1: current word is Berichtserstatter
+sorted 200000 words of file #1: current word is Bienenfuttermitteln
+sorted 300000 words of file #1: current word is Bodenleben
+sorted 400000 words of file #1: current word is Bronzetaube
+sorted 500000 words of file #1: current word is Capry
+sorted 600000 words of file #1: current word is Christenwerk
+sorted 700000 words of file #1: current word is Cornealflecke
+sorted 800000 words of file #1: current word is Daumenmethode
+sorted 900000 words of file #1: current word is Dicoidalzelle
+sorted 1000000 words of file #1: current word is Dorffeierlichkeiten
+sorted 1100000 words of file #1: current word is Edb
+sorted 1200000 words of file #1: current word is Einzelfehler
+sorted 1300000 words of file #1: current word is Ennons
+sorted 1400000 words of file #1: current word is Ermessensmissbrauchs
+sorted 1500000 words of file #1: current word is Extrahit
+sorted 1600000 words of file #1: current word is Felsengrat
+sorted 1700000 words of file #1: current word is Fleckensteyn
+time elapsed for sorting file ./data/data-sort1_01: 374.6556062698364
+finished sorting file #1
+start sorting file #2
+sorted 100000 words of file #2: current word is Fusionsrendite
+sorted 200000 words of file #2: current word is Gegenseile
+sorted 300000 words of file #2: current word is Gesamtgestalter
+sorted 400000 words of file #2: current word is Gladuse
+sorted 500000 words of file #2: current word is Gravignost
+sorted 600000 words of file #2: current word is Haghofer
+sorted 700000 words of file #2: current word is Hauptverba
+sorted 800000 words of file #2: current word is Herrgottsfeld
+sorted 900000 words of file #2: current word is Hofbarbierer
+sorted 1000000 words of file #2: current word is Hypothekenkonten
+sorted 1100000 words of file #2: current word is Innervationsleistung
+sorted 1200000 words of file #2: current word is Jahrhundertfestspiels
+sorted 1300000 words of file #2: current word is Kakihemd
+sorted 1400000 words of file #2: current word is Kauftermin
+sorted 1500000 words of file #2: current word is Klappenmodellen
+sorted 1600000 words of file #2: current word is Kommifsiou
+time elapsed for sorting file ./data/data-sort1_02: 381.7697615623474
+finished sorting file #2
+start sorting file #3
+sorted 100000 words of file #3: current word is Krrs
+sorted 200000 words of file #3: current word is Landast
+sorted 300000 words of file #3: current word is Lehensphilosophie
+sorted 400000 words of file #3: current word is Ligninzersetzer
+sorted 500000 words of file #3: current word is Lupoald
+sorted 600000 words of file #3: current word is Marignanobild
+sorted 700000 words of file #3: current word is Mehrzahn
+sorted 800000 words of file #3: current word is Milchleist
+sorted 900000 words of file #3: current word is Monatshoroskop
+sorted 1000000 words of file #3: current word is Nabelflecke
+sorted 1100000 words of file #3: current word is Neiders
+sorted 1200000 words of file #3: current word is Nonconformistcn
+sorted 1300000 words of file #3: current word is Oeschler
+sorted 1400000 words of file #3: current word is Osteopathieschulen
+sorted 1500000 words of file #3: current word is Parzellierungsgesellschaften
+sorted 1600000 words of file #3: current word is Pflanzenexport
+sorted 1700000 words of file #3: current word is Plogk
+sorted 1800000 words of file #3: current word is Prillinger
+time elapsed for sorting file ./data/data-sort1_03: 843.6939368247986
+finished sorting file #3
+start sorting file #4
+sorted 100000 words of file #4: current word is Putzanweisungen
+sorted 200000 words of file #4: current word is Raumkorrekturen
+sorted 300000 words of file #4: current word is Reichstagsinitiativen
+sorted 400000 words of file #4: current word is Rhythmusorganisation
+sorted 500000 words of file #4: current word is Rudistenhorizonte
+sorted 600000 words of file #4: current word is Sauerampffer
+sorted 700000 words of file #4: current word is Schlafteppichen
+sorted 800000 words of file #4: current word is Schuppenbildnng
+sorted 900000 words of file #4: current word is Sekretionsproduktes
+sorted 1000000 words of file #4: current word is Signaturdienste
+sorted 1100000 words of file #4: current word is Sonnenklinik
+sorted 1200000 words of file #4: current word is Sprechventile
+sorted 1300000 words of file #4: current word is Steinzeugwerk
+sorted 1400000 words of file #4: current word is Stromfpannung
+sorted 1500000 words of file #4: current word is Tabakwerbeverbote
+sorted 1600000 words of file #4: current word is Teredilen
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+sorted 400000 words of file #5: current word is beitslos
+sorted 500000 words of file #5: current word is boines
+sorted 600000 words of file #5: current word is Treibhausgasemis
+sorted 700000 words of file #5: current word is Uebergehuug
+sorted 800000 words of file #5: current word is Unterschiedlichkeiten
+sorted 900000 words of file #5: current word is Verarbeitungszweckes
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+sorted 400000 words of file #5: current word is beitslos
+sorted 500000 words of file #5: current word is boines
+sorted 600000 words of file #5: current word is Treibhausgasemis
+sorted 700000 words of file #5: current word is Uebergehuug
+sorted 800000 words of file #5: current word is Unterschiedlichkeiten
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+sorted 400000 words of file #5: current word is beitslos
+sorted 500000 words of file #5: current word is boines
+sorted 600000 words of file #5: current word is Treibhausgasemis
+sorted 700000 words of file #5: current word is Uebergehuug
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+sorted 400000 words of file #5: current word is beitslos
+sorted 500000 words of file #5: current word is boines
+sorted 600000 words of file #5: current word is Treibhausgasemis
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+time elapsed for sorting file ./data/data-sort1_04: 798.6543202400208
+finished sorting file #4
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+start sorting file #5
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 100000 words of file #5: current word is alkalischcs
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 200000 words of file #5: current word is antiraehitie
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+sorted 400000 words of file #5: current word is beitslos
+sorted 300000 words of file #5: current word is auseinanderzudehnen
+sorted 400000 words of file #5: current word is beitslos
+sorted 400000 words of file #5: current word is beitslos
+sorted 500000 words of file #5: current word is boines
+sorted 600000 words of file #5: current word is Treibhausgasemis
+sorted 700000 words of file #5: current word is Uebergehuug
+sorted 800000 words of file #5: current word is Unterschiedlichkeiten
+sorted 900000 words of file #5: current word is Verarbeitungszweckes
+sorted 1000000 words of file #5: current word is Versinnlichun
+sorted 1100000 words of file #5: current word is Volhyniae
+sorted 1200000 words of file #5: current word is Wahlkomission
+sorted 1300000 words of file #5: current word is Weinbauversuchsgut
+sorted 1400000 words of file #5: current word is Wiewoleinige
+sorted 1500000 words of file #5: current word is Wulfensche
+sorted 1600000 words of file #5: current word is Zerfallscrscheinungen
+sorted 1700000 words of file #5: current word is Zuzammenfassung
+time elapsed for sorting file ./data/data-sort1_05: 958.3372509479523
+finished sorting file #5
+start sorting file #6
+sorted 100000 words of file #6: current word is crregte
+sorted 200000 words of file #6: current word is deuocion
+sorted 300000 words of file #6: current word is durchliege
+sorted 400000 words of file #6: current word is elogen
+sorted 500000 words of file #6: current word is erleichternf
+sorted 600000 words of file #6: current word is faunistischcr
+sorted 700000 words of file #6: current word is fortgesetztc
+sorted 800000 words of file #6: current word is gegohr
+sorted 900000 words of file #6: current word is gittereigenen
+sorted 1000000 words of file #6: current word is hechtend
+sorted 1100000 words of file #6: current word is hinunterversetzt
+sorted 1200000 words of file #6: current word is impcrialis
+sorted 1300000 words of file #6: current word is itslienne
+sorted 1400000 words of file #6: current word is kombinatornyj
+sorted 1500000 words of file #6: current word is lehmbestrichenem
+sorted 1600000 words of file #6: current word is lungseffekte
+time elapsed for sorting file ./data/data-sort1_06: 651.2508027553558
+finished sorting file #6
+start sorting file #7
+sorted 100000 words of file #7: current word is monstrantiam
+sorted 200000 words of file #7: current word is nichtbetrieblich
+sorted 300000 words of file #7: current word is ohnfondere
+sorted 400000 words of file #7: current word is perbehinderte
+sorted 500000 words of file #7: current word is prate
+sorted 600000 words of file #7: current word is rauhfutterarmen
+sorted 700000 words of file #7: current word is rnra
+sorted 800000 words of file #7: current word is schottelen
+sorted 900000 words of file #7: current word is skalenbedingte
+sorted 1000000 words of file #7: current word is stoa
+sorted 1100000 words of file #7: current word is tenwere
+sorted 1200000 words of file #7: current word is trule
+sorted 1300000 words of file #7: current word is unigung
+sorted 1400000 words of file #7: current word is verfassernamens
+sorted 1500000 words of file #7: current word is vnstaten
+sorted 1600000 words of file #7: current word is weiterentrichtet
+sorted 1700000 words of file #7: current word is zboz
+time elapsed for sorting file ./data/data-sort1_07: 688.5119421482086
+finished sorting file #7
+time elapsed to sort everything ./data/data-sort1_07: 4855.164321422577  # =1 Hour : 20 Minutes : 55 Seconds
+

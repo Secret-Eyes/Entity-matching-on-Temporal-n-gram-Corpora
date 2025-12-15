@@ -1,2 +1,10 @@
-/data/zipdata
 *.gz
+/data/excel_exports
+/data/functions
+/data/tmp
+/data/wordlen
+/data/wordlensort
+/data/words
+/data/zipdata
+sygus_example.py
+sygus_integer.py
