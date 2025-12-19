@@ -6,5 +6,6 @@
 /data/wordlensort
 /data/words
 /data/zipdata
+*.zip
 sygus_example.py
 sygus_integer.py

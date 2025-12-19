@@ -23,11 +23,9 @@ validWordPath = './data/german_words_from_wiktionary.txt'
 charlist = []
 
 #charlist with all starting letters
-for k in range(ord('A'), ord('Z')):
+for k in range(ord('A'), ord('Z')+1):
     charlist.append(chr(k))
-for k in range(ord('a'), ord('z')):
-    charlist.append(chr(k))
-for k in ['Ä', 'Ö', 'Ü', 'ä', 'ö', 'ü', 'ß']:
+for k in ['Ä', 'Ö', 'Ü', 'ß']:
     charlist.append(k)
     
 # for faster testruns and Benchmarks:
@@ -178,6 +176,7 @@ def exampleLoadOld(path):
         while True:
             line = e.readline()
             if line == '': break
+            if line[0] == '#': continue
             
             # the first two words are the compared pair
             tmp = [*line.split()[:2]]
@@ -246,6 +245,7 @@ def WordCompare(solver, fun, d1, d2):
 # müh; optimality metric
 # K
 def EMOPT(posEx, negEx, Kransac, Kcegis):
+    starttime = time.time()
     r = 0
     phi = None              # will be of form: [solver, function]
     phieval = len(posEx) + len(negEx)   # current least amount of misses
@@ -287,7 +287,7 @@ def EMOPT(posEx, negEx, Kransac, Kcegis):
     solver = phi[0]
     fun = phi[0]
     
-    
+    print(f'time to calculate function {time.time() - starttime}')
     return phi
 
 
@@ -439,6 +439,9 @@ def searchEM2(solver, fun):
             except FileEnd:
                 # according to stackoverflow this is a correct and usable option to handle br4eaking multiple loops
                 fileduration = time.time()- wordlengthtimestart
+                global foundFunctions
+                with open(foundFunctions,  'a', encoding= "utf-8") as e:
+                    e.write(f'finished comparing all of {getletterpath(str(i), c)} in {fileduration / 60} minutes\n')
                 print(f'finished comparing all of {getletterpath(str(i), c)} in {fileduration / 60} minutes')
                 
     print(f'Finished loop')
@@ -519,6 +522,7 @@ def searchEM2test(solver, fun):
                 
     print(f'Finished loop')
     
+    #TODO
 def loopcheck():
     pass
         
@@ -545,8 +549,13 @@ def main(new):
         posexampleData = exampleLoadOld(posexampleDataPath)
         negexampleData = exampleLoadOld(negexampleDataPath)
     
+    nrexamples = len(posexampleData) + len(negexampleData)
     kran = 30       # nr of restarts for the whole process; Random sample consensus
     kceg = 50       # max number of samples per attempt
+    
+    
+    kran = nrexamples / 4
+    kceg = nrexamples / 4
     
     
     for i in range(0, 1):
@@ -556,9 +565,12 @@ def main(new):
         timestamp = str(datetime.datetime.now())[:-7].replace(':', '-').replace(' ', '_')
         foundexamples = f'{foundexBlueprint}{timestamp}_found'
         foundFunctions = f'{foundFuncBlueprint}{timestamp}_foundFunctions'
+        starttime = time.time()
         curFun = EMOPT(posEx= posexampleData, negEx= negexampleData, Kransac= kran, Kcegis= kceg)
         with open(foundFunctions,  'a', encoding= "utf-8") as e:
-            e.write(f'loop #{i}: {curFun[1]}\n')
+            e.write(f'loop #{i}: #total examples: {nrexamples}\t#pos-examples: {len(posexampleData)}\t#neg-examples: {len(negexampleData)}\n')
+            e.write(f'{curFun[1]}\n')
+            e.write(f'found in {time.time() - starttime} seconds\n')
         searchEM2(*curFun)
         #searchEM2test(*curFun)
         

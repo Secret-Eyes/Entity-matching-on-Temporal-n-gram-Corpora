@@ -95,11 +95,20 @@ def synth(exList:list, cmprfct:list = []):
     thresh_term = solver.mkVar(real_sort, "ThreshTerm")
 
     bool_productions = [
+        #option 1; valueas comparable
         solver.mkTerm(Kind.LEQ, real_term, thresh_term),
         solver.mkTerm(Kind.GEQ, real_term, thresh_term),
         solver.mkTerm(Kind.AND, bool_term, bool_term),
         solver.mkTerm(Kind.NOT, bool_term),
-        #solver.mkTerm(Kind.OR, bool_term, bool_term),
+        
+        #option 2; values only comparable with self
+        #solver.mkTerm(Kind.LEQ, real_term, thresh_term),
+        #solver.mkTerm(Kind.GEQ, real_term, thresh_term),
+        #solver.mkTerm(Kind.AND, thresh_term, thresh_term),
+        #solver.mkTerm(Kind.AND, bool_term, thresh_term),
+        
+        
+        ##solver.mkTerm(Kind.OR, bool_term, bool_term),
     ]
 
     thresh_productions = [
