@@ -353,7 +353,7 @@ def relativeChangeFlip(data1, data2):
     
     for d1, d2 in zip(relData1, relData2):
         if d2 == 0: perYear.append(0.0)
-        else :perYear.append(d1/d2)
+        else :perYear.append(d1/d2) #TODO: d1/d2 + d2/d1
     
     # assume 1 as standart change in relative usage over the years
     meanError = 0.0

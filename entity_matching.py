@@ -197,7 +197,7 @@ def checkToCompare(word1, word2, total):
     # so there is no need to check for length difference
     
     
-    if not fil.filterPrefix(word1, word2, 3): return False
+    if not fil.filterPrefix(word1, word2, 1): return False
     if not fil.filterSuffix(word1, word2, 1): return False
     
     
@@ -562,6 +562,7 @@ def main(new):
         # curFun:= [solver, function]
         global foundexamples
         global foundFuncBlueprint
+        global foundFunctions
         timestamp = str(datetime.datetime.now())[:-7].replace(':', '-').replace(' ', '_')
         foundexamples = f'{foundexBlueprint}{timestamp}_found'
         foundFunctions = f'{foundFuncBlueprint}{timestamp}_foundFunctions'

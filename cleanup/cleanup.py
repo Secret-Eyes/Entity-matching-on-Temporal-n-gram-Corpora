@@ -58,13 +58,13 @@ def path_setup():
         filePath6.append(f'./data/wordlen/word_length_clean_{tmp}{i}')
         wordLenUnder100.append(f'./data/wordlen/word_length_reduced_{tmp}{i}')
         
-        if i <= 1: continue
-        # length + letter seperation
-        for k in charlist:
-            dire =getletterdir(str(i), k)
-            path = getletterpath(str(i), k)
-            Path(dire).mkdir(parents=True, exist_ok= True)
-            with open(path, 'w'): pass
+        ##if i <= 1: continue
+        ### length + letter seperation
+        ##for k in charlist:
+        ##    dire =getletterdir(str(i), k)
+        ##    path = getletterpath(str(i), k)
+        ##    Path(dire).mkdir(parents=True, exist_ok= True)
+        ##    with open(path, 'w'): pass
 
 #  ^w+$  wwwwwwwwwwwwww  wwwiwwwww
 #positive regex hits
@@ -399,6 +399,22 @@ def sortlenlet():
                 
                 line = e.readline()
                 
+def printsize():
+    tmp = []
+    for i in range(0, 26):
+        tmp.append(0)
+    for i in range(2, 26):
+        print(f'start counting {wordLenUnder100[i]}')
+        with open(wordLenUnder100[i], 'r', encoding= "utf-8") as e:
+            line = e.readline()
+            while(line != ''):
+                thischar = line.split()[0]
+                l = len(thischar)
+                if l > 25: l = 25
+                tmp[l] = tmp[l] + 1
+                line = e.readline()
+    print(tmp)
+                
                 
                     
                     
@@ -422,6 +438,7 @@ path_setup()
 #cleanLenght()
 #reducenumeber()
 sortlenlet()
+printsize()
 
 totaltime = time.time() - totalstart
 print(f'The complete cleaning process took {round(totaltime / 60)} minutes and {round(totaltime) - (round(totaltime/60) *60)}')
